@@ -1,15 +1,6 @@
-body{
+.tindog-body{
+	text-align: center;
 	font-family: "Montserrat";
-}
-
-#title{
-	background-color: lightskyblue;
-	color: white;
-	padding: 3% 15% 7%;
-}
-
-.container-fluid{
-	padding: 3% 15% 7%;
 }
 
 h1{
@@ -37,6 +28,21 @@ svg{
 	color: pink;
 }
 
+
+
+#title{
+	background-color: lightskyblue;
+	color: white;
+	padding: 3% 15% 7%;
+	text-align: left;
+}
+
+.container-fluid{
+	padding: 3% 15% 7%;
+}
+
+
+
 /*Navigation bar*/
 
 .navbar{
@@ -45,7 +51,7 @@ svg{
 
 .title-name{
 	font-family: 'Ubuntu', sans-serif;
-	font-size: 4.5rem;
+	font-size: 3rem;
 	font-weight: bold;
 }
 .nav-item{
@@ -55,6 +61,8 @@ svg{
 	font-size: 1.3rem;
 	font-family: "Montserrat-light";
 }
+
+/*title*/
 
 /*Download Button*/
 
@@ -81,14 +89,12 @@ svg{
 
 
 .feature-box{
-	text-align: center;
 	padding: 0 15px;
 }
 
 /*testimonials*/
 
 #testimonials{
-	text-align: center;
 	padding: 7% 15%;
 	background-color: lightskyblue;
 	color: white;
@@ -104,7 +110,7 @@ svg{
 #press{
 	background-color: lightskyblue;
 	padding: 2% 15%;
-	text-align: center;
+	
 }
 .press-icon{
 	width: 15%;
@@ -114,7 +120,7 @@ svg{
 /*pricing*/
 
 #pricing{
-	text-align: center;
+	
 	padding: 100px;
 }
 
@@ -125,14 +131,14 @@ svg{
 
 /*call to action*/
 #cta{
-	text-align: center;
+	
 	padding: 7% 15%;
 	background-color: lightskyblue;
 }
 
 /*footer*/
 #footer{
-	text-align: center;
+	
 	padding: 7% 15%;
 }
 
